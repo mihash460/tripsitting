@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekta - Tripsitting</title>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Główna sekcja strony -->
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Przewodnictwo w podróży do wewnętrznych wymiarów</h1>
+        </div>
+    </header>
+
+    <!-- Sekcja Tripsitting -->
+    <section class="tripsitting">
+        <div class="container">
+            <p class="intro">„Wewnątrz każdego z nas istnieją nieznane przestrzenie, do których dostęp wymaga przewodnictwa i wiedzy...”</p>
+            <div class="services">
+                <div class="service">
+                    <h2>Przygotowanie do podróży</h2>
+                    <p>Przygotowujemy duszę i umysł do wejścia w stan rozszerzonej percepcji poprzez rytuały i duchowe nauki.</p>
+                </div>
+                <div class="service">
+                    <h2>Przewodnictwo w trakcie podróży</h2>
+                    <p>W obecności mądrości i ochrony rytuału, przewodnik stoi na straży granicy pomiędzy rzeczywistością a nieznanym.</p>
+                </div>
+                <div class="service">
+                    <h2>Integracja po podróży</h2>
+                    <p>Sesje rozmów i rytuały wspomagające integrację doświadczeń z powrotem do rzeczywistości.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja CTA: Dołącz do nas -->
+    <section class="cta">
+        <div class="container">
+            <h2>Gotowy na podróż?</h2>
+            <p>Skontaktuj się z nami, aby dowiedzieć się więcej i przygotować do swojej duchowej podróży.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Twoje imię" required>
+                <input type="email" placeholder="Twój email" required>
+                <textarea placeholder="Wiadomość"></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Sekta © 2024</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #d4d4d4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('https://example.com/dark_mystic_background.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header .title {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.tripsitting {
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.tripsitting .intro {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: #b3b3b3;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.service h2 {
+    color: #f8f8f8;
+    font-size: 1.8rem;
+}
+
+.service p {
+    color: #bfbfbf;
+    margin-top: 10px;
+}
+
+.cta {
+    background-color: #0d0d0d;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #d4d4d4;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #1a1a1a;
+    border: 1px solid #d4d4d4;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 30px;
+    background-color: #b30000;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ff1a1a;
+}
+
+.footer {
+    background-color: #0d0d0d;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: #7a7a7a;
+}
